@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bilal Zaky Akbar — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">BZA</a>
+      <ul class="nav__links">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#hobbies" class="nav__link">Hobbies</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--nav">Contact</a>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#about" class="nav__mobile-link">About</a>
+      <a href="#education" class="nav__mobile-link">Education</a>
+      <a href="#experience" class="nav__mobile-link">Experience</a>
+      <a href="#hobbies" class="nav__mobile-link">Hobbies</a>
+      <a href="#contact" class="nav__mobile-link nav__mobile-link--cta">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="hero">
+      <div class="hero__noise"></div>
+      <div class="hero__content">
+        <div class="hero__text">
+          <span class="hero__eyebrow reveal">Electrical & Maintenance</span>
+          <h1 class="hero__title reveal">
+            Bilal<br />
+            <em>Zaky</em><br />
+            Akbar
+          </h1>
+          <p class="hero__desc reveal">
+            Siswa SMK dengan minat di bidang Electrical dan Maintenance. Berpengalaman PKL di Universitas Pancasila dan meraih juara di kompetisi tingkat regional.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#contact" class="btn btn--primary">Hubungi Saya</a>
+            <a href="#" class="btn btn--outline">Download CV</a>
+          </div>
+        </div>
+        <div class="hero__photo-wrap reveal">
+          <div class="hero__photo-frame">
+            <img
+              src="profil.jpg"
+              alt="Bilal Zaky Akbar"
+              class="hero__photo"
+            />
+            <div class="hero__photo-badge">
+              <span class="hero__photo-badge-icon">⚡</span>
+              <span>Juara 1 Jakarta Timur</span>
+            </div>
+          </div>
+          <div class="hero__blob"></div>
+        </div>
+      </div>
+      <div class="hero__scroll-hint">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__left reveal">
+            <span class="section-label">— Profil</span>
+            <h2 class="section-title">Tentang<br /><em>Saya</em></h2>
+          </div>
+          <div class="about__right">
+            <p class="about__body reveal">
+              Saya adalah siswa SMK PGRI 20 Jakarta dengan ketertarikan kuat pada bidang electrical, maintenance, dan teknologi. Melalui program PKL di Universitas Pancasila, saya mendapatkan pengalaman langsung dalam pemeliharaan gedung dan troubleshooting kelistrikan skala besar.
+            </p>
+            <div class="about__skills reveal">
+              <div class="skill-card">
+                <div class="skill-card__icon">⚡</div>
+                <h3 class="skill-card__title">Electrical</h3>
+                <p class="skill-card__desc">Sistem kelistrikan, wiring, dan troubleshooting.</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-card__icon">⚙️</div>
+                <h3 class="skill-card__title">Maintenance</h3>
+                <p class="skill-card__desc">Perawatan preventif dan korektif peralatan.</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-card__icon">🔧</div>
+                <h3 class="skill-card__title">Teknologi</h3>
+                <p class="skill-card__desc">Minat pada inovasi dan sistem teknik modern.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EDUCATION ─── -->
+    <section class="education" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">— Riwayat</span>
+          <h2 class="section-title">Pendidikan</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline__line"></div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__year">2023 – 2026</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">SMK PGRI 20 Jakarta</h3>
+              <p class="timeline__sub">Engineering Focus &amp; Technical Studies</p>
+              <p class="timeline__desc">Jurusan teknik dengan fokus pada kelistrikan, elektronika, dan sistem maintenance industri.</p>
+            </div>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__year">2020 – 2023</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">SMPN Insan Tarbawi</h3>
+              <p class="timeline__sub">Junior High School</p>
+              <p class="timeline__desc">Fondasi akademis dengan prestasi di bidang sains dan teknologi dasar.</p>
+            </div>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__year">2014 – 2020</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">SDN Mekarsari 1</h3>
+              <p class="timeline__sub">Primary Education</p>
+              <p class="timeline__desc">Pendidikan dasar yang membangun karakter dan rasa ingin tahu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EXPERIENCE ─── -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">— Pengalaman</span>
+          <h2 class="section-title">Karir &amp; <em>Prestasi</em></h2>
+        </div>
+        <div class="exp__grid">
+          <div class="exp-card reveal">
+            <div class="exp-card__tag">INTERNSHIP</div>
+            <div class="exp-card__icon">🏗️</div>
+            <h3 class="exp-card__title">Universitas Pancasila</h3>
+            <p class="exp-card__role">Maintenance Staff (PKL)</p>
+            <p class="exp-card__desc">
+              Bertanggung jawab atas pemeliharaan gedung dan troubleshooting kelistrikan. Mendapatkan pengalaman langsung dalam merawat fasilitas kampus skala besar.
+            </p>
+            <ul class="exp-card__list">
+              <li>Pemeliharaan sistem kelistrikan gedung</li>
+              <li>Pengecekan dan servis peralatan rutin</li>
+              <li>Koordinasi dengan tim teknis senior</li>
+            </ul>
+          </div>
+          <div class="exp-card exp-card--award reveal">
+            <div class="exp-card__tag exp-card__tag--gold">AWARD</div>
+            <div class="exp-card__icon">🏆</div>
+            <h3 class="exp-card__title">Electrical Competition</h3>
+            <p class="exp-card__role">Juara 1 — Jakarta Timur</p>
+            <p class="exp-card__desc">
+              Meraih juara pertama dalam kompetisi teknik kelistrikan tingkat regional, menunjukkan keunggulan dalam desain dan implementasi rangkaian.
+            </p>
+            <div class="exp-card__medal">
+              <span class="medal">🥇</span>
+              <span>Tingkat Jakarta Timur</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── HOBBIES ─── -->
+    <section class="hobbies" id="hobbies">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">— Di Luar Kerja</span>
+          <h2 class="section-title">Hobi &amp; <em>Minat</em></h2>
+        </div>
+        <div class="hobbies__grid">
+          <div class="hobby-card reveal">
+            <div class="hobby-card__icon">📚</div>
+            <h3>Membaca Novel</h3>
+            <p>Mengeksplorasi dunia melalui cerita dan imajinasi.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <div class="hobby-card__icon">🏊</div>
+            <h3>Berenang</h3>
+            <p>Olahraga favorit untuk menjaga kebugaran fisik.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <div class="hobby-card__icon">✨</div>
+            <h3>Bersih-bersih</h3>
+            <p>Menjaga kerapihan dan keteraturan lingkungan sekitar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__left reveal">
+            <span class="section-label">— Hubungi</span>
+            <h2 class="section-title">Mari <em>Terhubung</em></h2>
+            <p class="contact__desc">Tersedia untuk kolaborasi, magang, atau pertanyaan profesional.</p>
+            <div class="contact__info">
+              <div class="contact__item">
+                <span class="contact__icon">📞</span>
+                <a href="tel:085772654046">0857-7265-4046</a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon">📧</span>
+                <a href="mailto:belalzakieakbar@gmail.com">belalzakieakbar@gmail.com</a>
+              </div>
+            </div>
+            <a href="https://wa.me/6285772654046" class="btn btn--primary btn--wa" target="_blank" rel="noopener">
+              <span>💬</span> WhatsApp Me
+            </a>
+          </div>
+          <div class="contact__right reveal">
+            <form class="form" id="contactForm">
+              <div class="form__group">
+                <label class="form__label">Nama</label>
+                <input type="text" class="form__input" placeholder="Nama lengkap Anda" required />
+              </div>
+              <div class="form__group">
+                <label class="form__label">Email</label>
+                <input type="email" class="form__input" placeholder="email@domain.com" required />
+              </div>
+              <div class="form__group">
+                <label class="form__label">Pesan</label>
+                <textarea class="form__input form__textarea" placeholder="Apa yang bisa saya bantu?" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full">Kirim Pesan</button>
+              <p class="form__success" id="formSuccess">✅ Pesan terkirim! Terima kasih.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">BZA</span>
+          <p>© 2024 Bilal Zaky Akbar.<br />Engineered for precision.</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">LinkedIn</a>
+          <a href="#" class="footer__social-link">GitHub</a>
+          <a href="mailto:belalzakieakbar@gmail.com" class="footer__social-link">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+   <a href="#" class="footer__social-link">LinkedIn</a>
+          <a href="#" class="footer__social-link">GitHub</a>
+          <a href="mailto:belalzakieakbar@gmail.com" class="footer__social-link">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
